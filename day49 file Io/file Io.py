@@ -14,3 +14,7 @@ f=open("myfile.txt","a")
 alphabats=f.write("yes you can do it")
 print(alphabats)
 f.close()
+
+# the with statement
+with open("myfile.txt","r") as f:
+    print(f.read())
