@@ -2,6 +2,9 @@ class Employee:
     language="Python" # this is a class attribute
     salary=1000000000
 
+    def __init__(self):  # dunder method which is automatically called
+        print("i am creating an object")
+
     def getinfo(self):
         print(f"the language is {self.language}, the salary is {self.salary}")
     
