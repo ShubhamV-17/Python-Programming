@@ -18,3 +18,4 @@ x.language="c++" #  this is a object attribute
 print(x.language,x.salary) 
 Employee.getinfo(x)
 Employee.greet()
+ 
