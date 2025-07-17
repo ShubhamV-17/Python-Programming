@@ -1,6 +1,10 @@
 class calculator:
     def __init__(self,n):
         self.n = n
+        
+    @staticmethod
+    def greet():
+        print("hello")
 
     def square (self):
         print(f"the square is {self.n*self.n}")
@@ -10,6 +14,7 @@ class calculator:
         print(f"the squareroot is {self.n**0.5}")
 
 a=calculator(256)
+a.greet()
 a.square()
 a.cube()
 a.squareroot()
