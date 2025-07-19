@@ -9,4 +9,4 @@ Q=Employee()
 Q.a=45
 q.name="shubham"
 
-Q.Nst()
+Q.Nst() 
